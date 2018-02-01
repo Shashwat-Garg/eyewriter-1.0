@@ -95,11 +95,11 @@ void drawingScene::makeNewStroke(){
 //--------------------------------------------------------------
 void drawingScene::update(float mouseX, float mouseY){
 	
-	nextStroke.setMaxCounter(buttonCount);	
+	/*nextStroke.setMaxCounter(buttonCount);	
 	nextLetter.setMaxCounter( ((float)buttonCount) * 1.2);
 	undo.setMaxCounter(buttonCount);
 	pause.setMaxCounter(buttonCount);
-	showGrid.setMaxCounter(buttonCount);
+	showGrid.setMaxCounter(buttonCount);*/
 	
 	button.setWaitTime( rate );
 	
