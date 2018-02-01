@@ -135,8 +135,8 @@ bool saverScene::uploadImage(string localFolder, string imageName){
 //--------------------------------------------------------------
 void saverScene::update(float mouseX, float mouseY){
 
-	saveAndUpload.setMaxCounter(buttonCount);
-	clearTags.setMaxCounter(buttonCount*2);	
+	//saveAndUpload.setMaxCounter(buttonCount);
+	//clearTags.setMaxCounter(buttonCount*2);	
 	
 	mx = mouseX;
 	my = mouseY;
