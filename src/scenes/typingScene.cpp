@@ -207,7 +207,7 @@ void typingScene::update(float mouseX, float mouseY){
 	//ofSetFrameRate(100);
 
 	for(int i = 0; i < letterButtons.size(); i++) {
-		letterButtons[i].setMaxCounter(buttonCount);
+		//letterButtons[i].setMaxCounter(buttonCount);
 		if(letterButtons[i].update(mx, my)) {
 			if ((carriageReturnCounter == 32)|(carriageReturnCounter == 31)) {
 				//displayMessage.push_back("\n");
@@ -324,7 +324,7 @@ void typingScene::update(float mouseX, float mouseY){
 	}
 
 	for (int i = 0; i < actionButtons.size(); i++){
-		actionButtons[i].setMaxCounter(buttonCount);
+		//actionButtons[i].setMaxCounter(buttonCount);
 		if(actionButtons[i].update(mx, my)) {
 			if (actionButtons[i].displayText[1] == "CAPS ON"){
 				if (shiftOn) shiftOn = false;
