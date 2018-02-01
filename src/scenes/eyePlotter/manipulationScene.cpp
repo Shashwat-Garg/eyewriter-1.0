@@ -99,8 +99,8 @@ void manipulationScene::setup(){
 //--------------------------------------------------------------
 void manipulationScene::update(float mouseX, float mouseY){
 
-	selectRight.setMaxCounter(buttonCount * 2);
-	selectLeft.setMaxCounter(buttonCount * 2);
+	//selectRight.setMaxCounter(buttonCount * 2);
+	//selectLeft.setMaxCounter(buttonCount * 2);
 	
 	if( whichGroup >= groups.size() ){
 		whichGroup = 0;
