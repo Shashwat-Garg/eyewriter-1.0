@@ -137,8 +137,8 @@ class strokeUtils{
 
 		ofRectangle rect = strokeUtils::getBoundingRectFromGroups(strokeGroups);
 
-		ofPoint mid(rect.x + rect.width/2, rect.y + rect.height/2);
-		ofPoint tmp;
+		ofVec2f mid(rect.x + rect.width/2, rect.y + rect.height/2);
+		ofVec2f tmp;
 
 		for(int j = 0; j < strokeGroups.size(); j++){
 
